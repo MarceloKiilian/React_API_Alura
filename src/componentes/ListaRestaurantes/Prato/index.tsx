@@ -6,6 +6,7 @@ interface PratoProps {
 }
 
 const Prato = ({ prato }: PratoProps) => {
+  
   return (<div className={estilos.Prato}>
     <div className={estilos.Container}>
       <div>
